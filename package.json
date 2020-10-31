@@ -1,0 +1,24 @@
+{
+  "name": "raspberrypiserver",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunusib12/raspberrypiserver.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "Pi",
+    "Server"
+  ],
+  "author": "Yunus Ibrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yunusib12/raspberrypiserver/issues"
+  },
+  "homepage": "https://github.com/Yunusib12/raspberrypiserver#readme"
+}
