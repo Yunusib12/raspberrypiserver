@@ -1,0 +1,110 @@
+.menu {
+  /* display: flex;
+  flex-direction: column;
+  /* background-color: rgb(163, 66, 66); 
+ 
+  min-height: 100vh;
+  margin: 10px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 14%;
+}
+
+.box {
+  /* height: 100px; */
+  border: 2px solid rgb(96, 139, 168);
+  border-radius: 5px;
+  background-color: rgba(96, 139, 168, 0.2);
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+}
+.button {
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  flex-grow: 1;
+  background-color: #7a7895;
+}
+
+.button:hover {
+  background-color: #758375;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttondisabled {
+  cursor: not-allowed;
+}
+
+.buttondisabled:hover {
+  background-color: #7a7895;
+}
+
+.container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.snapshot {
+  position: absolute;
+  top: 0px;
+  width: 86%;
+  right: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 2px;
+}
+
+li {
+  position: relative;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  background-color: white;
+}
+
+li:hover {
+  transform: scale(1.1);
+  z-index: 99;
+}
+
+li > img {
+  display: block;
+  width: 250px;
+  padding: 3px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+i {
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  color: white;
+  cursor: pointer;
+}
+
+label {
+  padding-left: 6px;
+  position: absolute;
+  bottom: 3px;
+  color: #000000;
+  font-family: monospace;
+  font-size: large;
+  font-weight: bolder;
+  width: 100%;
+  background-color: rgb(255 255 255 / 62%);
+}
+
+.notallowedmsg {
+  color: red;
+}
