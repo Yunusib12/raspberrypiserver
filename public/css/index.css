@@ -105,3 +105,7 @@ div > span.temp_f {
   font-family: cursive;
   color: darkgray;
 }
+
+div.header {
+  display: inline-block !important;
+}

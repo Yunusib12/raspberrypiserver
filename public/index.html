@@ -46,9 +46,15 @@
         </div>
         <div class="col-lg-10">
             <!--Display Home TEmperature-->
-            <div class="col-lg-12 col-sm-12 text-right">
-                <h4 class="font-weight-bold">Home Temperature / Humidity</h4>
-                <div>
+            <div class="col-lg-12 col-sm-12">
+                <div class="col-md-4 header">
+                    <h4 class="font-weight-bold">Listen to Radio Live</h4>
+                    <audio controls >
+                        <source src="https://radio.afriticgroup.com/stream" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="col-md-7 text-right header">
+                    <h4 class="font-weight-bold">Home Temperature / Humidity</h4>
                     <span id="temperature" class="temp"></span>
                     <span id="temp_in_f" class="temp_f"></span>
                     <span id="humidity" class="hum ml-5 mr-4"></span>
